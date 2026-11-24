@@ -39,7 +39,7 @@ def quat_rotate(q: Tuple[float, float, float, float], v: np.ndarray) -> np.ndarr
     uv = np.cross(q_vec, v)
     uuv = np.cross(q_vec, uv)
     return v + 2.0 * (qw * uv + uuv)
-
+    
 
 class CerdasUWBSwarmNode(Node):
     """

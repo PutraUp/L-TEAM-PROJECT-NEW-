@@ -3,9 +3,9 @@
 <package format="3">
   <name>Simulasi-1</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Decentralized Multi-Agent Swarm Robotics Simulation and pH-MARL Controller</description>
   <maintainer email="a.putra@todo.todo">a.putra</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
